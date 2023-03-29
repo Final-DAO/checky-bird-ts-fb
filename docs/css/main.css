@@ -1,399 +1,581 @@
+@-webkit-keyframes animLand {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -335px 0px;
+  }
+}
+@-moz-keyframes animLand {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -335px 0px;
+  }
+}
+@-o-keyframes animLand {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -335px 0px;
+  }
+}
 @keyframes animLand {
-   0% { background-position: 0px 0px; }
-   100% { background-position: -335px 0px; }
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -335px 0px;
+  }
 }
 
+@-webkit-keyframes animSky {
+  0% {
+    background-position: 0px 100%;
+  }
+  100% {
+    background-position: -623px 100%;
+  }
+}
+@-moz-keyframes animSky {
+  0% {
+    background-position: 0px 100%;
+  }
+  100% {
+    background-position: -623px 100%;
+  }
+}
+@-o-keyframes animSky {
+  0% {
+    background-position: 0px 100%;
+  }
+  100% {
+    background-position: -623px 100%;
+  }
+}
 @keyframes animSky {
-   0% { background-position: 0px 100%; }
-   100% { background-position: -275px 100%; }
+  0% {
+    background-position: 0px 100%;
+  }
+  100% {
+    background-position: -623px 100%;
+  }
 }
 
+@-webkit-keyframes animBird {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px -96px;
+  }
+}
+@-moz-keyframes animBird {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px -96px;
+  }
+}
+@-o-keyframes animBird {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px -96px;
+  }
+}
 @keyframes animBird {
-   from { background-position: 0px 0px; }
-   to { background-position: 0px -96px; }
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px -96px;
+  }
 }
 
+@-webkit-keyframes animPipe {
+  0% {
+    left: 900px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+@-moz-keyframes animPipe {
+  0% {
+    left: 900px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+@-o-keyframes animPipe {
+  0% {
+    left: 900px;
+  }
+  100% {
+    left: -100px;
+  }
+}
 @keyframes animPipe {
-   0% { left: 650px; }
-   100% { left: -100px; }
+  0% {
+    left: 900px;
+  }
+  100% {
+    left: -100px;
+  }
 }
 
+@-webkit-keyframes animCeiling {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -63px 0px;
+  }
+}
+@-moz-keyframes animCeiling {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -63px 0px;
+  }
+}
+@-o-keyframes animCeiling {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -63px 0px;
+  }
+}
 @keyframes animCeiling {
-   0% { background-position: 0px 0px; }
-   100% { background-position: -63px 0px; }
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -63px 0px;
+  }
+}
+@-webkit-keyframes animBirdSVG {
+  0% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+  25% {
+    transform: translate(12.166306px, 12.694031px) rotate(-19.963642deg);
+  }
+  50% {
+    transform: translate(12.166306px, 12.694031px) rotate(-46.418327deg);
+  }
+  75% {
+    transform: translate(12.166306px, 12.694031px) rotate(-16.533034deg);
+  }
+  100% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+}
+@-moz-keyframes animBirdSVG {
+  0% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+  25% {
+    transform: translate(12.166306px, 12.694031px) rotate(-19.963642deg);
+  }
+  50% {
+    transform: translate(12.166306px, 12.694031px) rotate(-46.418327deg);
+  }
+  75% {
+    transform: translate(12.166306px, 12.694031px) rotate(-16.533034deg);
+  }
+  100% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+}
+@-o-keyframes animBirdSVG {
+  0% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+  25% {
+    transform: translate(12.166306px, 12.694031px) rotate(-19.963642deg);
+  }
+  50% {
+    transform: translate(12.166306px, 12.694031px) rotate(-46.418327deg);
+  }
+  75% {
+    transform: translate(12.166306px, 12.694031px) rotate(-16.533034deg);
+  }
+  100% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+}
+@keyframes animBirdSVG {
+  0% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
+  25% {
+    transform: translate(12.166306px, 12.694031px) rotate(-19.963642deg);
+  }
+  50% {
+    transform: translate(12.166306px, 12.694031px) rotate(-46.418327deg);
+  }
+  75% {
+    transform: translate(12.166306px, 12.694031px) rotate(-16.533034deg);
+  }
+  100% {
+    transform: translate(12.166306px, 12.694031px) rotate(0deg);
+  }
 }
 
 *,
 *:before,
-*:after
-{
-   /* border box */
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-   /* gpu acceleration */
-   -webkit-transition: translate3d(0,0,0);
-   /* select disable */
-   -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
+*:after {
+  /* border box */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* gpu acceleration */
+  -webkit-transition: translate3d(0, 0, 0);
+  transition: translate3d(0, 0, 0);
+  /* select disable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html,
-body
-{
-   height: 100%;
-   overflow: hidden;
-   font-family: monospace;
-   font-size: 12px;
-   color: #fff;
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: #000;
 }
 
-#gamecontainer
-{
-   position: relative;
-   width: 100%;
-   height: 100%;
-   min-height: 525px;
+#flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
 }
 
+#gamecontainer {
+  position: relative;
+  width: 624px;
+  height: 624px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #111;
+  border: #191919 solid 1px;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
 /*
-Screen - Game
-*/
-#gamescreen
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
+ Screen - Game
+ */
+#gamescreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-#sky
-{
-   position: absolute;
-   top: 0;
-   width: 100%;
-   height: 80%;
-   background-image: url('../assets/sky.png');
-   background-repeat: repeat-x;
-   background-position: 0px 100%;
-   background-color: #4ec0ca;
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 84.7%;
+  background-image: url("../assets/sky.svg");
+  background-repeat: repeat-x;
+  background-position: 0px 100%;
+  background-color: #111;
 
-   animation: animSky 7s linear infinite;
+  -webkit-animation: animSky 7s linear infinite;
+  animation: animSky 7s linear infinite;
 }
 
-#flyarea
-{
-   position: absolute;
-   bottom: 0;
-   height: 420px;
-   width: 100%;
+#flyarea {
+  position: absolute;
+  top: 17.35%;
+  height: 83.23%;
+  width: 100%;
 }
 
-#ceiling
-{
-   position: absolute;
-   top: -16px;
-   height: 16px;
-   width: 100%;
-   background-image: url('../assets/ceiling.png');
-   background-repeat: repeat-x;
+#ceiling {
+  position: absolute;
+  top: -8px;
+  height: 8px;
+  width: 100%;
+  background-image: url("../assets/ceiling.svg");
+  background-repeat: repeat-x;
 
-   animation: animCeiling 481ms linear infinite;
+  -webkit-animation: animCeiling 481ms linear infinite;
+  animation: animCeiling 481ms linear infinite;
 }
 
-#land
-{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   height: 20%;
-   background-image: url('../assets/land.png');
-   background-repeat: repeat-x;
-   background-position: 0px 0px;
-   background-color: #ded895;
+#land {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15.3%;
+  background-image: url("../assets/land.svg");
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+  background-color: #000;
 
-   animation: animLand 2516ms linear infinite;
+  -webkit-animation: animLand 2516ms linear infinite;
+  animation: animLand 2516ms linear infinite;
 }
 
-.state-Playing #bigscore,
-.state-PlayerDying #bigscore
-{
-   visibility: visible;
+#bigscore {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: transparent;
+
+  z-index: 100;
 }
 
-#bigscore
-{
-   visibility: hidden;
-   position: absolute;
-   top: 20px;
-   left: 150px;
-   z-index: 100;
+#bigscore img {
+  display: inline-block;
+  padding: 1px;
 }
 
-#bigscore img
-{
-   display: inline-block;
-   padding: 1px;
+#splash {
+  position: absolute;
+  opacity: 0;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 236px;
+  height: 286px;
+  background-image: url("../assets/splash.svg");
+  background-repeat: no-repeat;
+  z-index: 150;
 }
 
-#splash
-{
-   position: absolute;
-   opacity: 0;
-   top: 75px;
-   left: 65px;
-   width: 188px;
-   height: 170px;
-   background-image: url('../assets/splash.png');
-   background-repeat: no-repeat;
+#scoreboard {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  width: 236px;
+  height: 286px;
+  top: 51px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("../assets/scoreboard.svg");
+  background-repeat: no-repeat;
 
-   transition: all 2000ms ease;
+  z-index: 1000;
 }
 
-#splash.visible
-{
-   opacity: 1;
+#medal {
+  position: absolute;
+  scale: 1;
+  opacity: 0;
+  top: 108px;
+  left: 38px;
+  width: 44px;
+  height: 44px;
+  display: none;
 }
 
-#scoreboard
-{
-   position: absolute;
-   top: 64px;
-   left: 43px;
-   width: 236px;
-   height: 280px;
-   background-image: url('../assets/scoreboard.png');
-   background-repeat: no-repeat;
-   z-index: 1000;
-
-   /* Hidden by default, and popped down slightly */
-   visibility: hidden;
-   opacity: 0;
-   transform: translate3d(0px, 40px, 0px);
-
-   transition: all 600ms ease;
+#currentscore {
+  position: absolute;
+  top: 104px;
+  left: 96px;
+  width: 104px;
+  height: 14px;
+  text-align: right;
 }
 
-#scoreboard.visible
-{
-   visibility: visible;
-   opacity: 1;
-   transform: translate3d(0px, 0px, 0px);
+#currentscore img {
+  padding-left: 2px;
 }
 
-#scoreboard.slide-up
-{
-   opacity: 0;
-   transform: translate3d(0px, -30px, 0px);
+#highscore {
+  position: absolute;
+  top: 140px;
+  left: 96px;
+  width: 104px;
+  height: 14px;
+  text-align: right;
 }
 
-#medal
-{
-   position: absolute;
-   opacity: 0;
-   top: 114px;
-   left: 32px;
-   width: 44px;
-   height: 44px;
-   transform: scale(2);
-   transition: all 1200ms ease;
+#highscore img {
+  padding-left: 2px;
 }
 
-#medal.visible {
-   opacity: 1;
-   transform: scale(1);
+#actionscontainer {
+  width: 248px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-#currentscore
-{
-   position: absolute;
-   top: 105px;
-   left: 107px;
-   width: 104px;
-   height: 14px;
-   text-align: right;
+#replay {
+  position: absolute;
+  opacity: 1;
+  top: 4px;
+  left: 30px;
+  height: 70px;
+  width: 115px;
+  cursor: pointer;
 }
 
-#currentscore img
-{
-   padding-left: 2px;
+#sound {
+  position: absolute;
+  opacity: 1;
+  top: 29px;
+  right: 36px;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  text-align: center;
 }
 
-#highscore
-{
-   position: absolute;
-   top: 147px;
-   left: 107px;
-   width: 104px;
-   height: 14px;
-   text-align: right;
+#sound.off {
+  opacity: 0.5;
+}
+#sound.off::after {
+  content: "/";
+  position: absolute;
+  top: -1px;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 41%;
+  font-family: system-ui;
+  font-size: 34px;
+  font-weight: 100;
+  transform: rotate(28deg);
 }
 
-#highscore img
-{
-   padding-left: 2px;
+.boundingbox {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid red;
 }
 
-#replay
-{
-   position: absolute;
-   top: 205px;
-   left: 61px;
-   height: 70px;
-   width: 115px;
-   cursor: pointer;
-
-   /* Hidden by default, and popped down slightly */
-   opacity: 0;
-   transform: translate3d(0px, 40px, 0px);
-
-   transition: all 600ms ease;
+#player {
+  left: 60px;
+  top: 200px;
 }
 
-#replay.visible
-{
-   opacity: 1;
-   transform: translate3d(0px, 0px, 0px);
+.bird {
+  position: absolute;
+  width: 34px;
+  height: 24px;
+}
+#bird #bird-u-color {
+  fill: transparent;
+}
+#bird-u-wings_tr {
+  -webkit-animation: animBirdSVG 400ms linear infinite normal;
+  animation: animBirdSVG 400ms linear infinite normal;
+}
+.pipe {
+  position: absolute;
+  left: -100px;
+  width: 52px;
+  height: 99.3%;
+  z-index: 10;
+  -webkit-animation: animPipe 7500ms linear;
+  animation: animPipe 7500ms linear;
 }
 
-#debug
-{
-   position: relative;
-   z-index: 9999;
+.pipe_upper {
+  position: absolute;
+  top: 0;
+  width: 52px;
+  background-color: #3eb8a1;
 }
 
-#debug-state
-{
-   position: absolute;
-   top: 5px;
-   left: 5px;
-   font-size: 14px;
-   background: rgba(0, 0, 0, 0.35);
-   z-index: 99;
-}
-
-#debug-logs
-{
-   position: absolute;
-   bottom: 0px;
-   left: 700px;
-   white-space: pre;
-   background: rgba(0, 0, 0, 0.35);
-   z-index: 99;
-}
-
-.boundingbox
-{
-   position: absolute;
-   pointer-events: none;
-   top: 0;
-   left: 0;
-   width: 0;
-   height: 0;
-   border: 1px solid red;
-}
-
-.bird
-{
-   position: absolute;
-
-   left: 60px;
-   width: 34px;
-   height: 24px;
-   background-image: url('../assets/bird.png');
-   will-change: transform;
-
-   animation: animBird 300ms steps(4) infinite;
-}
-
-.pipe
-{
-   position: absolute;
-   left: -100px;
-   width: 52px;
-   height: 100%;
-   z-index: 10;
-
-   /* Originally, this was 7500. Coupled with the animPipe distance of
-   moving each pipe left 1000px over the duration of the animation, it
-   makes it quite easy to adjust these two values in tandem. For each
-   pixel you move the pipe, multiply the distance by 7.5 to get the
-   total required animation time. For a 750px animation, use 5625ms */
-   animation: animPipe 5625ms linear;
-}
-
-.pipe_upper
-{
-   position: absolute;
-   top: 0;
-   width: 52px;
-   background-image: url('../assets/pipe.png');
-   background-repeat: repeat-y;
-   background-position: center;
-}
-
-.pipe_upper:after
-{
+/* .pipe_upper:after {
    content: "";
    position: absolute;
    bottom: 0;
    width: 52px;
    height: 26px;
-   background-image: url('../assets/pipe-down.png');
+   background-image: url("data:image/svg+xml,%3Csvg id='pipe-down' width='52' height='26' viewBox='0 0 52 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='color' d='M2 0L2 24L50 24V3.33786e-06L2 0Z' fill='%237CCA91'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 0H4V2H48V0H50V2H52V26H0V2H2V0ZM2 4V24H50V4H2Z' fill='%23111111'/%3E%3C/svg%3E%0A");
+ } */
+
+.pipe_lower {
+  position: absolute;
+  bottom: 0;
+  width: 52px;
+  background-color: #3eb8a1;
 }
 
-.pipe_lower
-{
-   position: absolute;
-   bottom: 0;
-   width: 52px;
-   background-image: url('../assets/pipe.png');
-   background-repeat: repeat-y;
-   background-position: center;
-}
-
-.pipe_lower:after
-{
+/* .pipe_lower:after {
    content: "";
    position: absolute;
    top: 0;
    width: 52px;
    height: 26px;
-   background-image: url('../assets/pipe-up.png');
-}
+   background-image: url("data:image/svg+xml,%3Csvg id='pipe-up' width='52' height='26' viewBox='0 0 52 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='color' d='M50 26L50 2L2 2L2 26L50 26Z' fill='%237CCA91'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M50 26L48 26L48 24L4 24L4 26L2 26L2 24L1.74846e-07 24L2.27299e-06 -4.54598e-06L52 0L52 24L50 24L50 26ZM50 22L50 2L2 2L2 22L50 22Z' fill='%23111111'/%3E%3C/svg%3E%0A");
+ } */
 
-#footer
-{
-   position: absolute;
-   bottom: 3px;
-   left: 3px;
-}
-
-#footer a
-{
-   display: block;
+#footer {
+  display: flex;
+  justify-content: center;
 }
 
 #footer a,
 #footer a:link,
 #footer a:visited,
 #footer a:hover,
-#footer a:active
-{
-   padding: 2px;
-   text-decoration: none;
-   color: #fff;
+#footer a:active {
+  display: block;
+  padding: 2px;
+  text-decoration: none;
+  color: #fff;
 }
 
-#game-options
-{
-   margin-bottom: 5px;
+#footer-inner {
+  align-items: center;
+  width: 624px;
 }
 
-#game-options a
-{
-   display: inline-block;
+#whichkey {
+  display: none;
+  height: 1px;
+  width: 1px;
+}
+
+.redPipe {
+  background-color: #cc423f;
 }
